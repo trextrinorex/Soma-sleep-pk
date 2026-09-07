@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Crescent Moon with soft gradient -->
+    <path
+        android:pathData="M52,30 C64.15,30 74,39.85 74,52 C74,53.2 73.9,54.38 73.71,55.53 C71.37,50.77 66.5,47.5 60.84,47.5 C52.27,47.5 45.32,54.45 45.32,63.02 C45.32,67.35 47.09,71.27 49.95,74.09 C48.67,74.68 47.24,75.02 45.74,75.02 C37.05,75.02 30,67.97 30,59.28 C30,43.11 40.06,30 52,30 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="30"
+                android:startY="30"
+                android:endX="74"
+                android:endY="75"
+                android:type="linear">
+                <item android:color="#F8FAFC" android:offset="0.0" />
+                <item android:color="#C7D2FE" android:offset="0.6" />
+                <item android:color="#818CF8" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Sparkling accent star -->
+    <path
+        android:pathData="M66,34 L67.5,39.5 L73,41 L67.5,42.5 L66,48 L64.5,42.5 L59,41 L64.5,39.5 Z"
+        android:fillColor="#FDE047" />
+    <!-- Secondary small sparkle -->
+    <path
+        android:pathData="M75,54 L76,57 L79,58 L76,59 L75,62 L74,59 L71,58 L74,57 Z"
+        android:fillColor="#A5F3FC" />
+    <!-- Sleep rhythm wave 1 -->
+    <path
+        android:pathData="M34,69 C40,64 46,74 52,69 C58,64 64,74 70,69"
+        android:strokeColor="#6366F1"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+    <!-- Sleep rhythm wave 2 -->
+    <path
+        android:pathData="M38,76 C43,72 48,80 53,76 C58,72 63,80 68,76"
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+</vector>

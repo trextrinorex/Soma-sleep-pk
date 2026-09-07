@@ -8,8 +8,6 @@ on:
 permissions:
   contents: read
 
-auto_cancel: true
-
 jobs:
   build:
     runs-on: ubuntu-latest
